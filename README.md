@@ -1,5 +1,9 @@
 # SnakesAndLadders
 
+This is an educational fun project to recreate a gamified version of Snakes & Ladders. 
+This is a frontend-only (web) project with no backend or serverside functionality
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.0.
 
 ## Development server
