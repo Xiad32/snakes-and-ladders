@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { DiceRollComponent } from './dice-roll/dice-roll.component';
+import { SetupPageComponent } from './setup-page/setup-page.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    DiceRollComponent
+    DiceRollComponent,
+    SetupPageComponent
   ],
   imports: [
     BrowserModule,

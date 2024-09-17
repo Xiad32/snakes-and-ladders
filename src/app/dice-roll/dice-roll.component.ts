@@ -19,7 +19,7 @@ export class DiceRollComponent {
     this.dice2Style = `bi-dice-${this.dice2}-fill`;
   }
 
-  rollDiceNumberGenerator() {
+  rollDiceNumberGenerator(): number {
     return Math.floor(Math.random() * 6) + 1;
   }
 }
