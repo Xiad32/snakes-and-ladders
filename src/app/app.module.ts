@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { DiceRollComponent } from './dice-roll/dice-roll.component';
 import { SetupPageComponent } from './setup-page/setup-page.component';
+import { UserInfoComponent } from './setup-page/user-info/user-info.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     DiceRollComponent,
-    SetupPageComponent
+    SetupPageComponent,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,

@@ -6,6 +6,16 @@ import { Component } from '@angular/core';
   styleUrl: './setup-page.component.scss'
 })
 export class SetupPageComponent {
+  players: string[] = [
+    "New Player"
+  ]
 
-  onStartButtonClick() {}
+  onAddPlayerClick() {
+    console.log("Player Added!");
+    this.players.push("Playername");
+  }
+
+  onStartButtonClick() {
+    console.log("start button clicked");
+  }
 }

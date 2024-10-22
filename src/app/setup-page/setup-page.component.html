@@ -1,5 +1,10 @@
 <h2>Setup Page</h2>
 <h3>Pick Your Player!</h3>
-<i class="bi bi-person-plus"></i>
+
+<app-user-info
+*ngFor="let player of players"
+  [name]="player"></app-user-info>
+
+<button type="button" class="btn btn-primary bi-person-plus" (click)="onAddPlayerClick()">Add a Player</button>
 
 <div><button routerLink="/dice" type="button" class="btn btn-primary m-1" (click)="onStartButtonClick()">Start</button></div>
